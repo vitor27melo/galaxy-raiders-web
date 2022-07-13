@@ -1,0 +1,4 @@
+{
+  "/v1/ship/commands": "/movements",
+  "/v1/*": "/$1"
+}
