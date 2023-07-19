@@ -94,6 +94,7 @@ function resumeGame() {
 }
 
 async function exitGame() {
+  window.location.reload();
   await $post("/end-game")
 }
 
